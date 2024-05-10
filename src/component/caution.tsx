@@ -5,4 +5,4 @@ function Caution() {
             <a href="" style={{ marginLeft: '1ch' }}>Sign Up</a>
         </div>);
 }
-export default Caution
+export default Caution;
