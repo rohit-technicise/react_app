@@ -6,8 +6,9 @@ import But from '../component/button';
 import FormPropsTextFields from '../component/text';
 import Continue from '../component/continue';
 import Caution from '../component/caution';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Sign from '../component/sign';
+
+
+
 
 function App() {
   return (
@@ -19,13 +20,6 @@ function App() {
         <div>
           <FormPropsTextFields />
           <But />
-          <Router>
-            <Routes>
-              <Route
-                path="/sign"
-                element={<Sign />} />
-            </Routes>
-          </Router>
           <Caution />
         </div>
         <div>
