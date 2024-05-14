@@ -2,7 +2,7 @@ function Caution() {
     return (
         <div style={{ textAlign: "right" }}>
             <p style={{ display: "inline-block" }}>Don't you have any account?</p>
-            <a href="/Sign up" style={{ marginLeft: '1ch' }}>Sign Up</a>
+            <a href="/sign_up" style={{ marginLeft: '1ch' }}>Sign Up</a>
         </div>);
 }
 export default Caution;

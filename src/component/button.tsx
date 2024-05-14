@@ -4,8 +4,7 @@ import Button from '@mui/material/Button';
 
 function But() {
   return (
-  <Button variant="contained" size="large" sx={{ width: "54ch" }}>Sign in</Button>
-  
+  <a href="/dashboard" style={{ marginLeft: '1ch' }}><Button variant="contained" size="large" sx={{ width: "54ch" }}>Sign in</Button></a>
 )
 
 }
