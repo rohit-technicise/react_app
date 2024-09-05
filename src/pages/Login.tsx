@@ -13,14 +13,15 @@ import Caution from '../component/caution';
 function App() {
   return (
     <Container maxWidth="xl">
-      <Card sx={{ width: 450, maxHeight: '100vh', padding: '4ch', mx: 'auto',top: "50%",
-        transform: "translate(0px, 40%)",}}>
+      <Card sx={{
+        width: 450, maxHeight: '100vh', padding: '4ch', mx: 'auto', top: "50%",
+        transform: "translate(0px, 40%)",
+      }}>
         <div className="App">
           <Email />
         </div>
         <div>
           <FormPropsTextFields />
-          <But />
           <Caution />
         </div>
         <div>
